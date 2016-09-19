@@ -22,7 +22,7 @@ char	*check_str(char *str)
   a = 0;
   b = 0;
   if ((tmp = malloc(sizeof(char *) * 100)) == NULL)
-    return (0);
+    return (NULL);
   while (a != 3)
     if (str[b++] == ':')
       a++;
